@@ -21,11 +21,9 @@ int main()
             getline(inp,line);
             smatch result;
             regex_search(line,result,leading_spaces);
-            //cout<<result.suffix()<<endl;
             if(result[1].str().length()>0)
             {
                 out<<result[1].str()<<endl;
-                //cout<<result.size()<<endl;
             }
         }
     }
