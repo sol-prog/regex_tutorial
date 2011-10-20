@@ -1,0 +1,17 @@
+The solution was obviously to compile the last versions of llvm, 
+
+
+      clang and libc++ from sources. Because I use my computer to hack 
+
+   some Objective-C code I didn’t want to mess my system installing 
+
+             new versions of llvm and clang so I’ve tried to install these on 
+			a test Linux box. After a few hours of struggle I was able to 
+
+  compile C++11 code that uses regular expressions and raw strings 
+         literals on Linux! This was interesting enough to deserve a 
+
+
+      separate post on my blog and hopefully will help others to get 
+             started with clang++ and libc++ on their Linux boxes.
+
